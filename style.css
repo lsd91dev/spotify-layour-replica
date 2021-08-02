@@ -5,3 +5,8 @@
 
     --text-secondary: rgb(145,148,150);
 }
+
+.hover-header:hover, .hover-footer:hover {
+    color: var(--background-secondary-variant);
+    cursor:pointer;
+}
