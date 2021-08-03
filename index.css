@@ -15,9 +15,18 @@ html,body {
     background: rgb(0,0,0);
 }
 
+.header__logo {
+    margin-top:20px;
+}
+
+.header__logo-image {
+    width: 132px;
+}
+
 .header__container {
     display: flex;
     height: 100%;
+    max-width: 970px;
     margin: 0 auto;
     padding: 0 15px;
     justify-content: space-between;
@@ -67,6 +76,7 @@ html,body {
 
 .main__title-text{
     font-size: 104px;
+    -webkit-text-size-adjust: none;
     line-height: 104px;
     padding-bottom: 24px;
     letter-spacing: -0.04em;
@@ -127,6 +137,7 @@ html,body {
 .footer__description-name {
     color: var(--text-secondary);
     text-transform: uppercase;
+    font-weight: 900;
 }
 
 .footer__description {
